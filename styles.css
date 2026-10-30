@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    display: flex;
+    min-height: 100vh;
+    flex:1;
+}
+header{
+    background-color: #2B9E00;
+    color: aliceblue;
+    padding-bottom: 30px;
+    width: 100%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.link{
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+}
+.links{
+    color: aliceblue;
+    margin: 20px;
+}
+.tarjetasgeneral{
+    align-content: center;
+    width: min(90%, 1110px);
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.tarjeta{
+    
+    text-align: justify;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.6);
+}
+
+.ttletarjetas{
+    color: rgb(45, 195, 45);
+}
+
+aside{
+    background-color: aqua;
+    text-align: justify;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.6);
+}
+
+.ttleaside{
+    color: rgb(45, 195, 45);
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+}
