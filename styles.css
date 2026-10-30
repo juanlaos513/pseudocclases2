@@ -32,6 +32,10 @@ header{
 .links{
     color: aliceblue;
     margin: 20px;
+    border-radius: 5px;
+}
+.links:hover{
+    background-color: #2B9E00;
 }
 .tarjetasgeneral{
     align-content: center;
